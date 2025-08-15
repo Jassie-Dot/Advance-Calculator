@@ -13,7 +13,7 @@ int main()
 	cout << "Welcome to the calculator, " << name << endl;
 	cout << endl;
 	cout << endl;
-	for (int i = 1; i == true;)
+	while(true)
 	{
 		string operation;
 		cout << "Press x to exit.." << endl;
@@ -125,4 +125,5 @@ int main()
 	}
 	cout << "Thanks for using this program, " << name << endl;
 	return 0;
+
 }
